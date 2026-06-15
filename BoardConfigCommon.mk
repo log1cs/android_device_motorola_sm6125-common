@@ -46,6 +46,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include hardware/motorola/sepolicy/qti/SEPolicy.mk
 
 # Treble
 TARGET_COPY_OUT_VENDOR := vendor
