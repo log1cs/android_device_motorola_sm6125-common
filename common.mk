@@ -54,5 +54,10 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# WiFi firmware symlinks
+PRODUCT_PACKAGES += \
+    firmware_WCNSS_qcom_cfg.ini_symlink \
+    firmware_wlan_mac.bin_symlink
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/motorola/sm6125-common/sm6125-common-vendor.mk)
